@@ -1,0 +1,49 @@
+/* GENERAL PAGE INFO*/
+body {
+    background: linear-gradient(45deg, #6a82fb, #fc5c7d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container input {
+    margin-bottom: 15px;
+}
+
+.login-container .btn {
+    width: 100%;
+    background-color: #6a82fb;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login-container .btn:hover {
+    background-color: #5c7be0;
+}
+
+.forgot-password,
+.signup {
+    text-align: center;
+}
+
+.forgot-password a,
+.signup a {
+    color: #6a82fb;
+    text-decoration: none;
+}
+
+.forgot-password a:hover,
+.signup a:hover {
+    text-decoration: underline;
+}
